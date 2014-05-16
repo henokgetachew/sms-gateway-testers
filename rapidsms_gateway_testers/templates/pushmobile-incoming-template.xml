@@ -1,0 +1,8 @@
+<bspostevent>
+	<field name="MessageID" type="string">{{message_id}}</field>
+	<field name="Now" type="date">{{time_stamp}}</field>
+	<field name="MobileNumber" type="string">{{mobile_number}}</field>
+	<field name="Local" type="string">{{local}}</field>
+	<field name="MobileNetwork" type="string">{{mobile_network}}</field>
+	<field name="Text" type="string">{{text}}</field>
+</bspostevent>
