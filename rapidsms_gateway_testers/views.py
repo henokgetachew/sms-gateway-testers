@@ -1,9 +1,11 @@
 from django.http import HttpResponse
 from django.template import loader, RequestContext
+from django.contrib.auth.decorators import login_required
 from rapidsms_gateway_testers.pushmobile_send_simulation import simulate_send_message
 import rapidsms_gateway_testers.settings
 
 
+@login_required
 def pushmobile_gateway_tester(request):
     target_url = rapidsms_gateway_testers.settings.PUSH_MOBILE_GATEWAY_TARGET_URL
 
