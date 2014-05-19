@@ -8,7 +8,7 @@ from django.template import loader, Context
 incoming_template_name = 'pushmobile-incoming-template.xml'
 
 
-def simulate_send_message(target_url, number, text):
+def simulate_incoming_message(target_url, number, text):
     msg_id = randint(1, 99999)
     time_sent = datetime.datetime.now()
     loc = random.randint(1, 99999)
