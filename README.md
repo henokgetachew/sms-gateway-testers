@@ -1,2 +1,2 @@
-rapidsms-gateway-testers
+sms-gateway-testers
 ========================
